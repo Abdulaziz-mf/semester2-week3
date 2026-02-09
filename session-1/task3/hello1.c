@@ -4,12 +4,12 @@
  * - compilation errors
  */
 
+
 #include <stdio.h>
 
-int main( void ) {
-    
-    printf("Hello\n");
+int main(void) {
 
-    return 0;    
-}	
+    printf("Hello Boys\n");
+    return 0;
 
+}
