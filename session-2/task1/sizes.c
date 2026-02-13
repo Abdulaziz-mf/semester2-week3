@@ -12,7 +12,7 @@ int main( void ) {
     int testInt;
     float testFloat;
 
-    printf("Char size is %ld bytes\n",sizeof(testChar));
+    printf("Char size is %ld bytes\n",sizeof(testChar)); //%ld is long integer, since %d is integer
     printf("Int size is %ld bytes\n",sizeof(testInt));
     printf("Float size is %ld bytes\n",sizeof(testFloat));
 
