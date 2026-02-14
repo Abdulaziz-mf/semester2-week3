@@ -1,4 +1,9 @@
 
+
+
+
+
+
 /*
  * Use the address and dereferencing operators on variables and pointers 
  * Display value and addres data via the variable and then via the pointer
@@ -8,16 +13,16 @@
 
 int main( void ) {
 
-    float testFloat = 3.14;
-    float *testFloatPtr;
-
-    testFloatPtr = &testFloat;  // the float pointer (testFloatPtr) is set to the address of the float variable (testFloat)
+    float value = 4.15;
+    float *pointervalue;
+    pointervalue = &value;
+    int new = (int) value;
+    printf("%d\n",new);
+    printf("The value of the value is %f\n",value);
+    printf("The address of the value is %p\n",&value);
+    printf("The value of the pointer is %p\n",pointervalue);
+    printf("The derefrence of the pointer is %f\n",*pointervalue);
     
-    printf("The value of the float variable is  %f\n",testFloat);
-    printf("The address of the float variable is  %p\n",&testFloat);
-
-    printf("The value of the pointer is  %p\n",testFloatPtr);
-    printf("The value that the pointer dereferences to is  %f\n",*testFloatPtr);
-
     return 0;
 }
+
